@@ -1,73 +1,8 @@
-# Welcome to your Lovable project
+🚀 EchoMentor – Bridging Aspirations with Guidance
+EchoMentor is a comprehensive mentorship platform built to connect aspiring mentees with experienced mentors across diverse fields. Designed with an intuitive frontend and a robust backend, the platform provides a seamless experience for both mentors and mentees to engage in meaningful learning sessions. EchoMentor is not just a session scheduler – it’s a career empowerment ecosystem.
 
-## Project info
+The platform supports secure role-based authentication for both mentors and mentees. Mentees can explore mentor profiles, check availability, and book personalized sessions by selecting a date, time, duration, and discussion topic. Each session is automatically linked to a static Google Meet URL to ensure reliable and universal access. The join button is made active only during the scheduled session time, providing a focused and distraction-free interaction window. Additionally, real-time email notifications are sent to both mentor and mentee upon successful session booking, ensuring no communication gaps.
 
-**URL**: https://lovable.dev/projects/e79533d4-4cc3-47c5-b3ea-646e2c1b7064
+EchoMentor also features dynamic and role-specific dashboards. Mentees can view upcoming sessions, mentorship goals, and track their recent activity, while mentors can manage session requests and schedules with ease. A crisis mentor feature ensures that users can access urgent support during moments of stress or confusion. To promote continuous learning, the platform includes gamification through post-session quizzes – enhancing engagement and knowledge retention.
 
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/e79533d4-4cc3-47c5-b3ea-646e2c1b7064) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/e79533d4-4cc3-47c5-b3ea-646e2c1b7064) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+The project is powered by a modern tech stack: React.js with TypeScript, Tailwind CSS, and ShadCN for the frontend; Node.js, Express.js, and MongoDB for the backend. Email notifications are handled via Nodemailer using Gmail SMTP, and user authentication is managed through Passport.js. MongoDB serves as the primary database, with Mongoose for schema management.
